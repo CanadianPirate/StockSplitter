@@ -3,11 +3,6 @@
 
 import time
 import yfinance as yf
-from datetime import date
-
-
-today = date.today()
-
 
 def stock_split():
     stock_num = 0
