@@ -52,7 +52,7 @@ def get_data():
             pass
         else:
             tickers.append(entry_4.get())
-            if len(entry_5.get()) == 0:
+            if len(entry_5.get()) == 0 or len(entry_5.get()) == None:
                 pass
             else:
                 tickers.append(entry_5.get())
